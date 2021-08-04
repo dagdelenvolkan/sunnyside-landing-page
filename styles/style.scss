@@ -15,6 +15,7 @@ $dark-blue-grayish: hsl(213, 9%, 39%);
 $grayish-blue: hsl(210, 4%, 67%);
 $white: hsl(0, 0%, 100%);
 $blue-hover: #6BD2FD;
+$footer-bg-color: #90D4C5;
 
 // Font variable
 
@@ -278,5 +279,117 @@ $blue-hover: #6BD2FD;
 
         }
 
+    }
+
+    .images {
+        height: 65vh;
+        display: flex;
+
+        .img {
+            flex: 1;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .img-1 {
+            background-image: url('../assets/desktop/image-gallery-milkbottles.jpg');
+        }
+        .img-2 {
+            background-image: url('../assets/desktop/image-gallery-orange.jpg');
+        }
+        .img-3 {
+            background-image: url('../assets/desktop/image-gallery-cone.jpg');
+        }
+        .img-4 {
+            background-image: url('../assets/desktop/image-gallery-sugarcubes.jpg');
+        }
+
+    }
+
+    .footer {
+        height: 40vh;
+        background-color: $footer-bg-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+
+        .logo {
+            width: 150px;
+            height: 50px;
+            background-color: $dark-cyan-moderate;
+            mask: url('../assets/logo.svg') no-repeat center;
+        }
+
+        .navLinks {
+            display: flex;
+            gap: 0 4rem;
+            margin-top: 2rem;
+            margin-bottom: 6rem;
+            font-family: 'Barlow', sans-serif;
+            color: $dark-cyan-moderate;
+            font-size: 1.2rem;
+
+            div {
+                cursor: pointer;
+            }
+
+            div:hover {
+                color: $white;
+            }
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+
+            .icon {
+                width: 20px;
+                height: 20px;
+                background-color: $dark-cyan-moderate;
+                cursor: pointer;
+                &:not(:last-child) {
+                    margin-right: 2rem;
+                }
+
+                &:hover {
+                    background-color: $white;
+                }
+            }
+            .facebook {
+                mask: url('../assets//icon-facebook.svg') no-repeat center;
+            }
+            
+            .instagram {
+                mask: url('../assets//icon-instagram.svg') no-repeat center;
+            }
+            .twitter {
+                mask: url('../assets//icon-twitter.svg') no-repeat center;
+            }
+            .pinterest {
+                mask: url('../assets//icon-pinterest.svg') no-repeat center;
+            }
+
+            // object:not(:last-child) {
+            //     margin-right: 2rem;
+            // }
+        }
+
+        
+
+        .attribution { 
+            position: absolute;
+            bottom: 1rem;
+            font-size: 11px;
+            right: 0;
+            left: 0;
+            text-align: center;
+
+            a { 
+                color: hsl(228, 45%, 44%); 
+                }
+            }
     }
 }

@@ -269,4 +269,140 @@
   font-family: 'Barlow', sans-serif;
   color: #a7abae;
 }
+
+.container .images {
+  height: 65vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .images .img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container .images .img-1 {
+  background-image: url("../assets/desktop/image-gallery-milkbottles.jpg");
+}
+
+.container .images .img-2 {
+  background-image: url("../assets/desktop/image-gallery-orange.jpg");
+}
+
+.container .images .img-3 {
+  background-image: url("../assets/desktop/image-gallery-cone.jpg");
+}
+
+.container .images .img-4 {
+  background-image: url("../assets/desktop/image-gallery-sugarcubes.jpg");
+}
+
+.container .footer {
+  height: 40vh;
+  background-color: #90D4C5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.container .footer .logo {
+  width: 150px;
+  height: 50px;
+  background-color: #458c7e;
+  -webkit-mask: url("../assets/logo.svg") no-repeat center;
+          mask: url("../assets/logo.svg") no-repeat center;
+}
+
+.container .footer .navLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 4rem;
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  font-family: 'Barlow', sans-serif;
+  color: #458c7e;
+  font-size: 1.2rem;
+}
+
+.container .footer .navLinks div {
+  cursor: pointer;
+}
+
+.container .footer .navLinks div:hover {
+  color: white;
+}
+
+.container .footer .social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .footer .social-links .icon {
+  width: 20px;
+  height: 20px;
+  background-color: #458c7e;
+  cursor: pointer;
+}
+
+.container .footer .social-links .icon:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.container .footer .social-links .icon:hover {
+  background-color: white;
+}
+
+.container .footer .social-links .facebook {
+  -webkit-mask: url("../assets//icon-facebook.svg") no-repeat center;
+          mask: url("../assets//icon-facebook.svg") no-repeat center;
+}
+
+.container .footer .social-links .instagram {
+  -webkit-mask: url("../assets//icon-instagram.svg") no-repeat center;
+          mask: url("../assets//icon-instagram.svg") no-repeat center;
+}
+
+.container .footer .social-links .twitter {
+  -webkit-mask: url("../assets//icon-twitter.svg") no-repeat center;
+          mask: url("../assets//icon-twitter.svg") no-repeat center;
+}
+
+.container .footer .social-links .pinterest {
+  -webkit-mask: url("../assets//icon-pinterest.svg") no-repeat center;
+          mask: url("../assets//icon-pinterest.svg") no-repeat center;
+}
+
+.container .footer .attribution {
+  position: absolute;
+  bottom: 1rem;
+  font-size: 11px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+.container .footer .attribution a {
+  color: #3e52a3;
+}
 /*# sourceMappingURL=style.css.map */
