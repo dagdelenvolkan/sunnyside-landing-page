@@ -158,4 +158,46 @@
 .container .thirdPage .trd-page-btn:hover::before {
   background-color: #fe7867;
 }
+
+.container .frthPage {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .frthPage .graph-img, .container .frthPage .photography-img {
+  width: 50%;
+  background-image: url("../assets/desktop/image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container .frthPage .graph-img .frth-img-text, .container .frthPage .photography-img .frth-img-text {
+  position: absolute;
+  bottom: 50px;
+  width: 400px;
+  text-align: center;
+  color: #19536b;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.container .frthPage .graph-img .frth-img-text .frth-title, .container .frthPage .photography-img .frth-img-text .frth-title {
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container .frthPage .graph-img .frth-img-text .frth-text, .container .frthPage .photography-img .frth-img-text .frth-text {
+  font-size: 1.2rem;
+  font-family: 'Barlow', sans-serif;
+  line-height: 1.9rem;
+}
+
+.container .frthPage .photography-img {
+  background-image: url("../assets/desktop/image-photography.jpg");
+}
 /*# sourceMappingURL=style.css.map */

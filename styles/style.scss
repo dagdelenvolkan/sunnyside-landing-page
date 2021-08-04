@@ -172,4 +172,45 @@ $blue-hover: #6BD2FD;
             }
         }
     }
+
+    .frthPage {
+        height: 80vh;
+        display: flex;
+
+        .graph-img, .photography-img {
+            width: 50%;
+            background-image: url('../assets/desktop/image-graphic-design.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+
+            .frth-img-text {
+                position: absolute;
+                bottom: 50px;
+                width: 400px;
+                text-align: center;
+                color: $dark-blue;
+                left: 0;
+                right: 0;
+                margin: auto;
+
+                .frth-title {
+                    font-family: 'Fraunces', serif;
+                    font-size: 2rem;
+                    margin-bottom: 2rem;
+                }
+
+                .frth-text {
+                    font-size: 1.2rem;
+                    font-family: 'Barlow', sans-serif;
+                    line-height: 1.9rem;
+                }
+            }
+        }
+
+        .photography-img {
+            background-image: url('../assets/desktop/image-photography.jpg');
+        }
+
+    }
 }
