@@ -200,4 +200,73 @@
 .container .frthPage .photography-img {
   background-image: url("../assets/desktop/image-photography.jpg");
 }
+
+.container .client-testimonials {
+  height: 100vh;
+  padding: 20vh;
+}
+
+.container .client-testimonials .testimonials .testimonials-title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #a7abae;
+  font-family: 'Fraunces', serif;
+  letter-spacing: .6rem;
+  font-weight: 900;
+  margin-bottom: 8rem;
+}
+
+.container .client-testimonials .testimonials .clients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .client-testimonials .testimonials .clients .client-reviews {
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .client-testimonials .testimonials .clients .client-reviews img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 6rem;
+}
+
+.container .client-testimonials .testimonials .clients .client-reviews .client-text {
+  width: 410px;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #5a636c;
+  font-family: 'Barlow', sans-serif;
+  line-height: 2.3rem;
+  margin-bottom: 5rem;
+}
+
+.container .client-testimonials .testimonials .clients .client-reviews .client-info .client-name {
+  font-size: 1.2rem;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  color: #23303e;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container .client-testimonials .testimonials .clients .client-reviews .client-info .client-title {
+  font-family: 'Barlow', sans-serif;
+  color: #a7abae;
+}
 /*# sourceMappingURL=style.css.map */

@@ -213,4 +213,70 @@ $blue-hover: #6BD2FD;
         }
 
     }
+
+    .client-testimonials {
+        height: 100vh;
+
+        padding: 20vh;
+
+        .testimonials {
+            
+            .testimonials-title {
+                text-align: center;
+                font-size: 1.5rem;
+                color: $grayish-blue;
+                font-family: 'Fraunces', serif;
+                letter-spacing:  .6rem;
+                font-weight: 900;
+                margin-bottom: 8rem;
+            }
+
+            .clients {
+                display: flex;
+                justify-content: center;
+            
+                .client-reviews {
+                    width: 450px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    img {
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 50%;
+                        margin-bottom: 6rem;
+                    }
+
+                    .client-text {
+                        width: 410px;
+                        font-size: 1.3rem;
+                        text-align: center;
+                        color: $dark-blue-grayish;
+                        font-family: 'Barlow', sans-serif;
+                        line-height: 2.3rem;
+                        margin-bottom: 5rem;
+                    }
+
+                    .client-info {
+                        .client-name {
+                            font-size: 1.2rem;
+                            font-family: 'Fraunces', serif;
+                            font-weight: 900;
+                            color: $dark-blue-desaturated;
+                            text-align: center;
+                            margin-bottom: 1rem;
+                        }
+
+                        .client-title {
+                            font-family: 'Barlow', sans-serif;
+                            color: $grayish-blue;
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
 }
